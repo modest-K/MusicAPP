@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+<!--    数据库名称-->
+    <dbname value="MusicStore"></dbname>
+<!--    数据库版本-->
+    <version value="1"></version>
+<!--    映射模型-->
+    <list>
+        <mapping class="com.example.starsmusic.Music"></mapping>
+    </list>
+</litepal>

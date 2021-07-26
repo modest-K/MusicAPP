@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_gragh.xml"
+    android:label="@string/button_login"
+    app:startDestination="@id/fragment_login">
+
+    <fragment
+        android:id="@+id/fragment_login"
+        android:name="com.example.starsmusic.fragment_login"
+        android:label="@string/music_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_fragment_login_to_fragment_list"
+            app:destination="@id/fragment_list" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_list"
+        android:name="com.example.starsmusic.fragment_list"
+        android:label="@string/music_list">
+        <action
+            android:id="@+id/action_fragment_list_to_fragment_show"
+            app:destination="@id/fragment_show" />
+        <action
+            android:id="@+id/action_fragment_list_to_fragment_login"
+            app:destination="@id/fragment_login" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_show"
+        android:name="com.example.starsmusic.fragment_show"
+        android:label="@string/music_show"
+        tools:layout="@layout/fragment_show">
+        <action
+            android:id="@+id/action_fragment_show_to_fragment_list"
+            app:destination="@id/fragment_list" />
+    </fragment>
+</navigation>

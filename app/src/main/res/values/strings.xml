@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">StarsMusic</string>
+
+    <!-- 控件信息 -->
+    <string name="bg_login">bg_login</string>
+    <string name="user_login">user_login</string>
+    <string name="user_hint">请输入用户名</string>
+    <string name="user_icon">user_icon</string>
+    <string name="pass_login"></string>
+    <string name="pass_icon">pass_icon</string>
+    <string name="pass_hint">请输入密码</string>
+    <string name="button_login">登录</string>
+    <string name="checkbtn_login">记住我</string>
+    <string name="button_pre">上一首</string>
+    <string name="button_next">下一首</string>
+    <string name="button_pause">暂停</string>
+    <string name="button_stop">停止</string>
+    <string name="quit_dialog_title">确定退出吗?</string>
+    <string name="quit_positive_message">确定</string>
+    <string name="quit_negative_message">取消</string>
+    <string name="delete_dialog_title">确定删除所选音乐吗?</string>
+    <string name="delete_positive_message">删除</string>
+    <string name="delete_negative_message">再想想</string>
+    <!--    音乐信息-->
+    <string name="ara_song">爱人啊</string>
+    <string name="ara_singer">张杰</string>
+    <string name="jlc_song">锦鲤抄</string>
+    <string name="jlc_singer">云の泣/银临</string>
+    <string name="hsgddj_song">化身孤岛的鲸</string>
+    <string name="hsgddj_singer">不才</string>
+    <string name="jh_song">句号</string>
+    <string name="jh_singer">邓紫棋</string>
+    <string name="lx_song">流夏</string>
+    <string name="lx_singer">栗先达</string>
+    <string name="nz_song">哪吒</string>
+    <string name="nz_singer">蔡翊昇</string>
+    <string name="qjf_song">全家福</string>
+    <string name="qjf_singer">张杰</string>
+    <string name="lgj_song">流光记</string>
+    <string name="lgj_singer">银临</string>
+    <string name="xiang_song">乡</string>
+    <string name="xiang_singer">任然/不才</string>
+    <string name="yggs_song">一个故事</string>
+    <string name="yggs_singer">张杰</string>
+    <!-- fragment标题 -->
+    <string name="music_login">登录界面</string>
+    <string name="music_list">音乐列表</string>
+    <string name="music_show">音乐界面</string>
+</resources>
